@@ -69,7 +69,7 @@ function eatTail(head, arr) {
     for (let i = 0; i < arr.length; i++) {
         if (head.x == arr[i].x && head.y == arr[i].y) {
             clearInterval(game)
-            $('.game_status').text(`Насосано ${score}`)
+            $('.game_status').text(`Попробуй поступить ещё раз ${score}`)
             $('.restart').addClass('show')
         }
 

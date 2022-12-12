@@ -97,7 +97,7 @@ const drawCanvas = () => {
     }
     ctx.fillStyle = 'white'
     ctx.font = '50px Arial'
-    ctx.fillText(score, box * 2.5, box * 1.8)
+    ctx.fillText(score, box * 12.5, box * 1.75)
 
     let snakeHeadX = snake[0].x
     let snakeHeadY = snake[0].y

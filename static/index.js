@@ -3,13 +3,13 @@ const ctx = cvs.getContext('2d')
 let stop = false
 const imgPath = "static/images/"
 const imgs = [
-    'head.png',
+    'main.png',
     'foods.png',
     'ground.png',
-    'headU.png',
-    'headR.png',
-    'headL.png',
-    'headD.png'
+    'up.png',
+    'right.png',
+    'left.png',
+    'down.png'
 ]
 let game
 const ground = new Image()
